@@ -29,9 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         listview.setAdapter(adapter);
 
-        adapter.addItem_check("새벽기도", "4시반 예배를 기준으로 함.", false);
-        adapter.addItem_count("문제 풀이 갯수", "", 0);
-        adapter.addItme_time("운동시간", "운동할때 시작 누르기", 0);
         // Setup button to append additional contacts.
         //      Button addMoreButton = (Button) findViewById(R.id.add_more_contacts);
     /*    addMoreButton.setOnClickListener(new View.OnClickListener() {
