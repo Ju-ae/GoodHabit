@@ -26,11 +26,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:text="이름"
                 android:textColor="@color/Black"
                 android:textSize="20dp" />
 
             <EditText
+                android:id="@+id/et_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -38,9 +40,9 @@
         </LinearLayout>
 
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="형식"
             android:textColor="@color/Black"
             android:textSize="20dp" />
@@ -51,18 +53,21 @@
             android:weightSum="3">
 
             <Button
+                android:id="@+id/btn_Tcount"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="횟수" />
 
             <Button
+                android:id="@+id/btn_Tcheck"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="체크" />
 
             <Button
+                android:id="@+id/btn_Tstopwatch"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -73,60 +78,72 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="빈도"
-            android:layout_marginTop="20dp"
+            android:layout_margin="5dp"
             android:textColor="@color/Black"
             android:textSize="20dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:weightSum="7">
+
             <Button
+                android:id="@+id/btn_mon"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="월" />
 
             <Button
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="월" />
-
-            <Button
+                android:id="@+id/btn_tue"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="화" />
 
             <Button
+                android:id="@+id/btn_wed"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="수" />
 
             <Button
+                android:id="@+id/thu"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="목" />
 
             <Button
+                android:id="@+id/btn_fri"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="금" />
 
             <Button
+                android:id="@+id/btn_sat"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="토" />
 
             <Button
+                android:id="@+id/sun"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="일" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_additem"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="추가"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
