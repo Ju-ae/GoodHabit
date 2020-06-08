@@ -13,6 +13,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="항목추가"/>
+                android:text="항목추가"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

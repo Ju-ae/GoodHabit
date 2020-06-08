@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="mainColor">#FFCAD9</color>
+    <color name="subColor">#FF7E94</color>
+
     <color name="Black">#000000</color>
     <color name="White">#FFFFFF</color>
     <color name="RGB_Red">#FF0000</color>

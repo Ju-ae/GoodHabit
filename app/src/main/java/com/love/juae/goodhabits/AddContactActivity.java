@@ -11,5 +11,4 @@ public class AddContactActivity extends AppCompatActivity {
         setContentView(R.layout.activity_addcontact);
     }
 
-
 }
