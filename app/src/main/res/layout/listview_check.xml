@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="10dp"
+    android:background="@drawable/list_round"
     android:weightSum="5">
 
 
@@ -30,7 +31,6 @@
             android:layout_height="wrap_content"
             android:text="subtitle"
             android:textSize="13dp" />
-    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -65,5 +65,6 @@
             android:padding="3dp"
             android:visibility="gone" />
     </RelativeLayout>
+    </LinearLayout>
 
 </LinearLayout>
