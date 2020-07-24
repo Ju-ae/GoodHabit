@@ -16,4 +16,7 @@
 
     <color name="list_border">#000000</color>
     <color name="list_background">#1E1E1E</color>
+
+    <color name="list_title">#FFFFFF</color>
+    <color name="list_subtitle">#C0C28EC6</color>
 </resources>

@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="10dp"
+    android:layout_margin="3dp"
+    android:padding="15dp"
     android:background="@drawable/list_round"
     android:weightSum="5">
 
@@ -21,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="title"
-            android:textColor="#000000"
+            android:textColor="@color/list_title"
             android:textSize="15dp"
             android:textStyle="bold" />
 
@@ -29,6 +30,7 @@
             android:id="@+id/subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor = "@color/list_subtitle"
             android:text="subtitle"
             android:textSize="13dp" />
 
@@ -41,13 +43,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="#CCCCCC"
             android:padding="7dp"
             android:text="00:00:00"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:visibility="gone" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/count"
